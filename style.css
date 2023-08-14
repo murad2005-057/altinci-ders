@@ -1,0 +1,38 @@
+body{
+    margin: 0 auto;
+
+}
+
+.contanier{
+    text-align: center;
+
+}
+
+p{
+opacity: .55;
+
+}
+
+.content{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom:40px; ;
+
+
+}
+
+.card{
+    display: flex;
+    justify-content: space-around;
+   
+}
+
+i{
+    font-size: 40px;
+}
+button{
+background-color: #000;
+color: #fff;
+padding: 15px;
+cursor: pointer;
+}
