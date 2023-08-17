@@ -1,6 +1,7 @@
 body{
     margin: 0 auto;
 
+
 }
 
 .contanier{
@@ -12,22 +13,22 @@ p{
 opacity: .55;
 
 }
-
-.content{
+.cards{
     display: flex;
-    justify-content: space-around;
-    margin-bottom:40px; ;
+    max-width: 100%;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-evenly;
+    padding: 34px;
 
 
 }
-
 .card{
-    display: flex;
-    justify-content: space-around;
-   
+    
+    width: 33%;
 }
-
 i{
+    padding-top: 20px;
     font-size: 40px;
 }
 button{
